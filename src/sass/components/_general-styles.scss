@@ -1,0 +1,55 @@
+//zero stiles setup
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+// ==================================================================
+// picture stiles setup
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+// ==================================================================
+// main body stiles
+body {
+  font-family: $primary-font-family;
+  letter-spacing: $secondary-letter-spacing;
+  font-size: $primary-text-size;
+}
+// ==================================================================
+// main section stiles
+.section {
+  padding: 20px 0 20px 0;
+}
+// ==================================================================
+// main container stiles
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+
+  @media (min-width: 480px) {
+    width: 480px;
+  }
+
+  @media (min-width: 768px) {
+    width: 768px;
+  }
+
+  @media (min-width: 1200px) {
+    width: 1200px;
+  }
+}
+// ==================================================================
+//class visible hidden
+.is-hidden {
+  @extend %invisible;
+}
