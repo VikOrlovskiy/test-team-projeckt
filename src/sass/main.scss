@@ -4,7 +4,7 @@
 @import './utils/mixins';
 @import './base/normalize';
 @import './components/general-styles';
-@import './components/_buttons';
+@import './components/buttons';
 // ==================================================================
 // main page
 // header
@@ -14,7 +14,7 @@
 // @import '';
 // ==================================================================
 // section
-// @import '';
+@import './components/work';
 // ==================================================================
 // section
 // @import '';
